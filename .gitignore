@@ -1,0 +1,237 @@
+# ===== Maven =====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+.mtj.tmp/
+
+# ===== Spring Boot =====
+application-local.properties
+application-dev.properties
+application-prod.properties
+application.properties.local
+
+# ===== Compiled Files =====
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ===== IDE - IntelliJ IDEA =====
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+*.code-workspace
+
+# ===== NetBeans =====
+nbproject/
+.nb-gradle/
+.nbtmp/
+
+# ===== Eclipse =====
+.project
+.pydevproject
+.settings/
+.texlipse
+.classpath
+.factorypath
+
+# ===== VS Code =====
+.vscode/
+.vscode-test/
+*.vsix
+*.code-workspace
+
+# ===== Sublime Text =====
+*.sublime-project
+*.sublime-workspace
+
+# ===== Vim =====
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*~
+
+# ===== Emacs =====
+*~
+\#*\#
+.\#*
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===== Windows =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== Linux =====
+.directory
+
+# ===== Build Artifacts =====
+build/
+dist/
+bin/
+
+# ===== Gradle =====
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# ===== SBT =====
+.scala_dependencies
+.sbt/
+
+# ===== Ant =====
+build/
+dist/
+
+# ===== Logs =====
+logs/
+*.log
+*.log.*
+*.log[0-9]
+log.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Testing =====
+.junitvintage.log
+.coverage
+.pytest_cache/
+test-results/
+coverage/
+jacoco.xml
+
+# ===== OS Specific =====
+.env
+.env.local
+.env.*.local
+*.swp
+*.swo
+*~
+.~*
+
+# ===== Temp Files =====
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
+temp/
+tmp/
+
+# ===== Node (if using any frontend build tools) =====
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.yarn
+
+# ===== Local Development =====
+.vscode/
+.vscode
+.idea/
+*.swp
+*.iml
+.DS_Store
+
+# ===== Database =====
+*.db
+*.sqlite
+*.h2.db
+database/
+data/
+
+# ===== Documentation =====
+docs/generated/
+
+# ===== CI/CD =====
+.travis.yml.local
+.gitlab-ci.yml.local
+.github/workflows/*.local.yml
+
+# ===== Security & Credentials =====
+.env
+.env.local
+.env.*.local
+secrets/
+keys/
+*.pem
+*.key
+*.pub
+.aws/
+.ssh/
+
+# ===== IDE Caches =====
+.cache/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/codeStyles/
+
+# ===== IntelliJ Specific =====
+out/
+*.iml
+modules.xml
+*.iws
+.idea_modules/
+
+# ===== Runtime Files =====
+*.pid
+*.seed
+*.pid.lock
