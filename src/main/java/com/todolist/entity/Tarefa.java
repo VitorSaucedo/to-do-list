@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.CreationTimestamp;
 import java.time.LocalDateTime;
 
 @Entity
@@ -26,15 +27,9 @@ public class Tarefa {
     @Column(nullable = false)
     private boolean concluida = false;
 
+    @CreationTimestamp
     @Column(nullable = false, updatable = false)
-    private LocalDateTime dataCriacao = LocalDateTime.now();
+    private LocalDateTime dataCriacao;
 
     private LocalDateTime dataVencimento;
-
-    @PrePersist
-    protected void onCreate() {
-        if (dataCriacao == null) {
-            dataCriacao = LocalDateTime.now();
-        }
-    }
 }
